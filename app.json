@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "apiBaseUrl": "http://localhost:8080/MoneyLog"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
   }
 }
